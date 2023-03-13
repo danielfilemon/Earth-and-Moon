@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Space.jpg);
+    background-size: cover;
+
+}
+
+.Earth {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-image: url(Map.png);
+    background-size: cover;
+
+}
+
+.Moon {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 75px;
+    right: 40px;
+    background-color: gray;
+    background-size: cover;
+}
